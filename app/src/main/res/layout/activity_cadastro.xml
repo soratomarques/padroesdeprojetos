@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dev.fretex.CadastroActivity">
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/caixa_nome_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/nome_cadastro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/caixa_cpf_id"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_nome_id"
+        android:layout_below="@+id/caixa_nome_id"
+        android:ems="10"
+        android:hint="@string/cpf_cadastro"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/caixa_cidade_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_rua_id"
+        android:layout_below="@+id/caixa_rua_id"
+        android:ems="10"
+        android:hint="@string/cidade_cadastro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/caixa_bairro_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_cidade_id"
+        android:layout_below="@+id/caixa_cidade_id"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/bairro_cadastro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/caixa_rua_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_cep_id"
+        android:layout_below="@+id/caixa_cep_id"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/logradouro_cadastro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/caixa_cep_id"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_cpf_id"
+        android:layout_below="@+id/caixa_cpf_id"
+        android:ems="10"
+        android:hint="@string/cep_cadastro"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinner_estado_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_bairro_id"
+        android:layout_below="@+id/caixa_bairro_id"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:id="@+id/caixa_email_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinner_estado_id"
+        android:layout_below="@+id/spinner_estado_id"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/caixa_numero_id"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_bairro_id"
+        android:layout_below="@+id/caixa_bairro_id"
+        android:ems="10"
+        android:hint="N°"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/caixa_telefone_id"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/caixa_email_id"
+        android:layout_below="@+id/caixa_email_id"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+</RelativeLayout>
+

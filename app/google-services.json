@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "328941498166",
+    "firebase_url": "https://fretex-40610.firebaseio.com",
+    "project_id": "fretex-40610",
+    "storage_bucket": "fretex-40610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328941498166:android:ab0d839be0a491ef",
+        "android_client_info": {
+          "package_name": "com.example.dev.fretex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328941498166-d501crgj03emb6gkkauegmio1ugcglgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dev.fretex",
+            "certificate_hash": "960d252d686132ad128a97e039c71aeef76366b5"
+          }
+        },
+        {
+          "client_id": "328941498166-n5m6g53ljkt5p0h40ml6ki3rrqhr9co4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaBfPIBIV0mypYpo2t0w5BxUxkgswoxWE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328941498166-n5m6g53ljkt5p0h40ml6ki3rrqhr9co4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

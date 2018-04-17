@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FRETEX</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="senha_perdida">Esqueceu a senha?</string>
+    <string name="cadastrar_novo_usuario">Cadastrar</string>
+    <string name="texto_email">Email do usuário.</string>
+    <string name="texto_senha">Senha do usuário.</string>
+    <string name="nome_cadastro">Nome</string>
+    <string name="estado_cadastro">Estado</string>
+    <string name="cidade_cadastro">Cidade</string>
+    <string name="bairro_cadastro">Bairro</string>
+    <string name="logradouro_cadastro">Logradouro</string>
+    <string name="numero_cadastro">N°</string>
+    <string name="cep_cadastro">Cep</string>
+    <string name="telefone_cadastro">Telefone</string>
+    <string name="email_cadastro">E-mail</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="cpf_cadastro">CPF</string>
+    <string name="botao_verifica">Verificar CEP</string>
+
+    <string-array name="listaEstado">
+        <item>"*Estado"</item>
+        <item>"Acre (AC)"</item>
+        <item>"Alagoas (AL)"</item>
+        <item>"Amapá (AP)"</item>
+        <item>"Amazonas (AM)"</item>
+        <item>"Bahia (BA)"</item>
+        <item>"Ceará (CE)"</item>
+        <item>"Distrito Federal (DF)"</item>
+        <item>"Espírito Santo (ES)"</item>
+        <item>"Goiás (GO)"</item>
+        <item>"Maranhão (MA)"</item>
+        <item>"Mato Grosso (MT)"</item>
+        <item>"Mato Grosso do Sul (MS)"</item>
+        <item>"Minas Gerais (MG)"</item>
+        <item>"Pará (PA)"</item>
+        <item>"Paraíba (PB)"</item>
+        <item>"Paraná (PR)"</item>
+        <item>"Pernambuco (PE)"</item>
+        <item>"Piauí (PI)"</item>
+        <item>"Rio de Janeiro (RJ)"</item>
+        <item>"Rio Grande do Norte (RN)"</item>
+        <item>"Rio Grande do Sul (RS)"</item>
+        <item>"Rondônia (RO)"</item>
+        <item>"Roraima (RR)"</item>
+        <item>"Santa Catarina (SC)"</item>
+        <item>"São Paulo (SP)"</item>
+        <item>"Sergipe (SE)"</item>
+        <item>"Tocantins (TO)"</item>
+    </string-array>
+</resources>
